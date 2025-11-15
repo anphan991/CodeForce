@@ -1,0 +1,82 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run & Debug C++ (Console nội bộ)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\C++\\MSYS2\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build with g++ (MSYS2)"
+        },
+        {
+            "name": "Run & Debug C++ (Console ngoài)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\C++\\MSYS2\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build with g++ (MSYS2)"
+        },
+        {
+            "name": "Chạy nhanh C++ (không debug)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\C++\\MSYS2\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [],
+            "preLaunchTask": "Build with g++ (MSYS2)"
+        },
+        {
+            "name": "Run C++ (Console ngoài + giữ màn hình)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "cmd.exe",
+            "args": [
+                "/c",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "&",
+                "pause"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\C++\\MSYS2\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [],
+            "preLaunchTask": "Build with g++ (MSYS2)"
+        }
+    ]
+}

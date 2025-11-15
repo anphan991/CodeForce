@@ -1,0 +1,1 @@
+{"name":"Local: Team","url":"d:\\Desktop\\codeforce\\Team.cpp","tests":[{"id":1762934442447,"input":"3\n1 1 0\n1 1 1\n1 0 0\n","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desktop\\codeforce\\Team.cpp","group":"local","local":true}
