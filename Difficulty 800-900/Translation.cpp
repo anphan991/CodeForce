@@ -9,6 +9,7 @@ int main(){
 	
 	if(s.size() != t.size()){
 		cout<<"NO";
+		return 0;
 	}
 	
 	int n=s.size();

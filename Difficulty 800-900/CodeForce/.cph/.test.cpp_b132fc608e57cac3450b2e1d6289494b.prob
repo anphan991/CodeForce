@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"d:\\Desktop\\codeforce\\test.cpp","tests":[{"id":1762931774930,"input":"6\n1 2 3 4 5 6","output":"Tong cac so chan: 12\nTrung binh cong so le: 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desktop\\codeforce\\test.cpp","group":"local","local":true}
